@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair Display', serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+
+}
+.continer{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.continer hr{
+    width: 100%;
+    height: 20px;
+    background: #0fa5e0;
+    border: none;
+}
+.header{
+    width: 100%;
+    height: 160px;
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2.5% ;
+}
+.header img{
+    width: 250px;
+}
+.header nav ul li{
+    display: inline-block;
+    padding-right: 5px;
+
+}
+.header nav ul li:last-child{
+    padding: 0;
+}
+.header nav ul li a{
+    text-decoration: none;
+    color: azure;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.header nav ul li a:hover
+{
+    background:#0fa5e0 ;
+    
+    
+}
+.shout{
+    width: 100%;
+    height: 560px;
+    margin-top: 30px;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 2.5% ;
+}
+.shout h2{
+    
+    font-size: 123px;
+    font-weight: 200;
+
+}
+.services{
+    width: 100%;
+    height: 380px;
+    padding:0 2.5%;
+    padding-top: 3rem;
+}
+
+.services .cards{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+.services .cards .card{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 3px;
+    transition: all 0.5s;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.services .cards .card:hover{
+    background-color: #42bff0;
+}
+.services .cards .card  i{
+    font-size: 110px;
+    padding-bottom: 10px;
+}
+.services .cards .card h1{
+    font-size: 30px;
+    font-weight: 500;
+    word-spacing: 45px;
+    padding-bottom: 20px;
+}
+.services .cards .card p{
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+    word-spacing: 5px;
+}
+.team .team-heading{
+    width: 100%;
+    height: 280px;
+    display: flex;justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    font-weight: 500;
+    padding: 0 2.5%;
+}
+.team{
+    width: 100%;
+    height: auto;
+    padding:0 2.5%;
+}
+.team .cards {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+    padding-bottom: 20px ;
+}
+.team .cards .card{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 3px;
+    transition: all 0.5s;
+    position: relative;
+    transform: scale(0.95);
+}
+
+.team .cards .card:hover{
+    transform: scale(1);
+}
+.team .cards .card h1{
+    padding: 15px 0;
+    font-weight: 600;
+    font-size: 22px;
+    border-bottom: 1px solid rgb(201, 201, 201);
+}
+.team .cards .card p{
+    color: rgb(83, 83, 83);
+    font-size: 15px;
+    word-spacing: 5px;
+    padding: 10px 0;
+}
+.team .cards .card a{
+    text-decoration: none;
+    position: absolute;
+    bottom: -7px;
+    right: 2px;
+    color: #40aed7;
+}
+.footer{
+    width: 100%;
+    padding: 30px 2.5%;
+    background: rgb(58, 58, 58);
+    color: #fff;
+    margin-top: 50px;
+
+}
+.footer .cards-2 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 1rem;
+}
+.footer .cards-2 .card-2{
+    text-align: left;
+    border-radius: 3px;
+    transition: all 0.5s;
+    position: relative;
+}
+.footer .cards-2 .card-2 h1{
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 30px;
+    letter-spacing: 1px;
+}
+
+.footer .cards-2 .card-2 h2{
+    font-size: 18px;
+    font-weight: 800;
+    padding-bottom: 10px;
+    color:rgb(187, 187, 187); 
+    letter-spacing: 1px;
+}
+
+.footer .cards-2 .card-2 .fstcard-p{
+    font-size: 13px;
+    padding-bottom: 10px;
+    color: rgb(170, 170, 170);
+
+}
+
+.footer .cards-2 .card-2 .fstcard-p span{
+    color: #42bff0;
+    font-size: 15px;
+}
+.footer .cards-2 .card-2 .date{
+    font-size: 13px;
+    color: rgb(187, 187, 187); 
+}
+.footer .cards-2 .card-2 h5{
+    color: rgb(187, 187, 187); 
+    padding-top: 10px;
+    font-weight: 100;
+    line-height: 18px;
+    padding-bottom: 5px;
+}
+.footer .cards-2 #foot-span p{
+    font-size: 16px;
+    font-weight: 200;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color:#42bff0 ;
+    border-bottom: 1px solid rgb(85, 85, 85);
+}
+.footer .cards-2 .col3 p{
+    color: rgb(187, 187, 187);
+    padding-bottom: 20px;
+    font-size: 13px;
+    font-weight: 200;
+}
+.footer .cards-2 .col3 span{
+    color: #42bff0;
+    font-size: 15px;
+    font-weight: 500;
+}
+.footer .cards-2 .contact input{
+    width: 100%;
+    height: 35px;
+    background: rgb(31, 31, 31);
+    border: none;
+    margin-bottom: 10px;
+    padding: 10px;
+    caret-color: #fff;
+    border-radius: 3px;
+    color: #fff;
+}
+.footer .cards-2 .contact input:focus,textarea:focus{
+    outline: none;
+}
+.footer .cards-2 .contact input::placeholder{
+    color: #e4e4e4;
+}
+.footer .cards-2 .contact textarea::placeholder{
+    color: rgb(228, 228, 228);
+}
+.footer .cards-2 .contact textarea{
+    width: 100%;
+    height: 140px;
+    padding: 10px;
+    background: rgb(31, 31, 31);
+    border-radius: 3px;
+    border: none;
+    caret-color: #fff;
+    color: #fff;
+}
+.footer .cards-2 .contact button{
+    width: 80px;
+    padding: 8px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #42bff0;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.copyright{
+    width: 100%;
+    height: 70px;
+    background: rgb(41, 41, 41);
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+
+}
+.copyright p{
+    color: rgb(187, 187, 187);
+    font-size: 14px;
+    font-weight: 200;
+}
+.footer .cards-2 .card-2 a{
+    text-decoration: none;
+    color: #40aed7;
+    font-size: 14px;
+    font-weight: 100;
+}
